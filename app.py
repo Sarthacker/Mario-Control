@@ -50,12 +50,12 @@ while True:
         # print(right_length,left_length,jump_length,fire_length)
         
         if(right_length>=115):
-            pg.press('q')
+            pg.press('right')
         if(left_length>=110):
-            pg.press('e')
+            pg.press('left')
         if(jump_length>=115):
-            pg.press('c')
+            pg.press('z')
         if(fire_length>=145):
-            pg.press('X')
+            pg.press('x')
             
     # cv.waitKey(0)
